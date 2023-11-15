@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>민속촌</title>
+    <script src="https://kit.fontawesome.com/4dfede835e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- 베너 스와이퍼 -->
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- play 스와이퍼 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <!-- logo, login, menu, btn -->
+    <header>
+        <div class="header-wrap">
+            <div class="header-top">
+                <div class="log">
+                    <div class="login">
+                        <ul class="login-ul">
+                            <li> <a href="#" style="font-weight: 700;">로그인</a> </li>
+                            <li> <a href="#" style="font-weight: 700;">회원가입</a> </li>
+                            <li> <a href="#" style="font-weight: 700;">고객의 말씀</a> </li>
+                            <li> <a href="#">스토어</a> </li>
+                            <li class="last">
+                                <a href="#">LANGUAGE
+                                    <img src="img/header/icon_arrowDown.svg" alt=" 화살표">
+                                </a>
+                                <ul class="lan">
+                                    <li><a href="#">KOREAN</a></li>
+                                    <li><a href="#">ENGLISH</a></li>
+                                    <li><a href="#">CHINESE</a></li>
+                                    <li><a href="#">JAPANESE</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                <div class="headerdown">
+                    <div class="headdown-wrap">
+                        <div class="logo">
+                            <a href="https://www.koreanfolk.co.kr/"><img src="img//header/logo.svg" alt="logo"></a>
+                        </div>
+                        <!-- 메뉴 -->
+                        <nav>
+                            <ul class="de1">
+                                <!-- 이용안내 -->
+                                <li>
+                                    <a href="#">이용안내</a>
+                                    <div class="under-menu">
+                                        <div class="content">
+                                            <div class="clock">
+                                                <p class="today">9.11 월요일</p>
+                                                <img src="img/header/icon_clock.svg" alt="시계">
+                                                <p class="run-time">오늘의 운영시간</p>
+                                                <p class="running-time">10:00&nbsp;-&nbsp;19:00</p>
+                                            </div>
+                                            <div class="sub-menu">
+                                                <ul class="de2">
+                                                    <li><a href="#">운영시간</a></li>
+                                                    <li><a href="#">편의시설</a></li>
+                                                    <li><a href="#">교통정보</a></li>
+                                                    <li><a href="#">자주묻는 질문</a></li>
+                                                    <li><a href="#">촬영안내</a></li>
+                                                    <li><a href="#">공지사항</a></li>
+                                                    <li><a href="#">가이드맵</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- 요금할인 -->
+                                <li>
+                                    <a href="#">요금할인</a>
+                                    <div class="under-menu">
+                                        <div class="content">
+                                            <div class="clock">
+                                                <p class="today">9.11 월요일</p>
+                                                <img src="img/header/icon_clock.svg" alt="시계">
+                                                <p class="run-time">오늘의 운영시간</p>
+                                                <p class="running-time">10:00&nbsp;-&nbsp;19:00</p>
+                                            </div>
+                                            <div class="sub-menu">
+                                                <ul class="de2">
+                                                    <li><a href="#">이용요금</a></li>
+                                                    <li><a href="#">이달의 할인</a></li>
+                                                    <li><a href="#">제휴카드 할인</a></li>
+                                                    <li><a href="#">연간회원 안내</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- 단체/예약 -->
+                                <li>
+                                    <a href="#">단독예약</a>
+                                    <div class="under-menu">
+                                        <div class="content">
+                                            <div class="clock">
+                                                <p class="today">9.11 월요일</p>
+                                                <img src="img/header//icon_clock.svg" alt="시계">
+                                                <p class="run-time">오늘의 운영시간</p>
+                                                <p class="running-time">10:00&nbsp;-&nbsp;19:00</p>
+                                            </div>
+                                            <div class="sub-menu">
+                                                <ul class="de2">
+                                                    <li class="down">
+                                                     <a href="#">던채프로그램 예약
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                     </a>
+                                                        <ul class="mini-menu">
+                                                            <li><a href="#">유아/학생 단체</a></li>
+                                                            <li><a href="#">성인단체</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">전통혼례(실혼) 예약</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- 즐길거리 -->
+                                <li>
+                                    <a href="#" style="color: #f60; font-weight: 900;">즐길거리</a>
+                                    <div class="under-menu">
+                                        <div class="content">
+                                            <div class="clock">
+                                                <p class="today">9.11 월요일</p>
+                                                <img src="img/header//icon_clock.svg" alt="시계">
+                                                <p class="run-time">오늘의 운영시간</p>
+                                                <p class="running-time">10:00&nbsp;-&nbsp;19:00</p>
+                                            </div>
+                                            <div class="sub-menu">
+                                                <ul class="de2">
+                                                    <li class="down">
+                                                        <a href="#">특별행사
+                                                            <i class="fa-solid fa-chevron-right"></i>
+                                                        </a>
+                                                        <ul class="mini-menu">
+                                                            <li><a href="#">민속촌 NOW</a></li>
+                                                            <li><a href="#">세시행사</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="down">
+                                                        <a href="#">공연안내
+                                                            <i class="fa-solid fa-chevron-right"></i>
+                                                        </a>
+                                                        <ul class="mini-menu">
+                                                            <li><a href="#">상설 공연</a></li>
+                                                            <li><a href="#">오늘의 공연</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="down">
+                                                        <a href="#">체험전시
+                                                            <i class="fa-solid fa-chevron-right"></i>
+                                                        </a>
+                                                        <ul class="mini-menu">
+                                                            <li><a href="#">상설 체험</a></li>
+                                                            <li><a href="#">상설 전시</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">어트렉션</a></li>
+                                                    <li><a href="#">관광꿀팁</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- 먹거리/살거리 -->
+                                <li>
+                                    <a href="#">먹거리/살거리</a>
+                                    <div class="under-menu">
+                                        <div class="content">
+                                            <div class="clock">
+                                                <p class="today">9.11 월요일</p>
+                                                <img src="img/header//icon_clock.svg" alt="시계">
+                                                <p class="run-time">오늘의 운영시간</p>
+                                                <p class="runningn-time">10:00&nbsp;-&nbsp;19:00</p>
+                                            </div>
+                                            <div class="sub-menu">
+                                                <ul class="de2">
+                                                    <li class="down">
+                                                        <a href="#">먹거리
+                                                            <i class="fa-solid fa-chevron-right"></i>
+                                                        </a>
+                                                        <ul class="mini-menu">
+                                                            <li><a href="#">식당</a></li>
+                                                            <li><a href="#">전통식품 구매</a></li>
+                                                            <li><a href="#">전통주류</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="down">
+                                                        <a href="#">살거리
+                                                            <i class="fa-solid fa-chevron-right"></i>
+                                                        </a>
+                                                        <ul class="mini-menu">
+                                                            <li><a href="#">기념품 숍</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- 민속촌 소개 -->
+                                <li>
+                                    <a href="#">한국민속촌 소개</a>
+                                    <div class="under-menu">
+                                        <div class="content">
+                                            <div class="clock">
+                                                <p class="today">9.11 월요일</p>
+                                                <img src="img/header//icon_clock.svg" alt="시계">
+                                                <p class="run-time">오늘의 운영시간</p>
+                                                <p class="running-time">10:00&nbsp;-&nbsp;19:00</p>
+                                            </div>
+                                            <div class="sub-menu">
+                                                <ul class="de2">
+                                                    <li><a href="#">한국민속촌 소개</a></li>
+                                                    <li class="down">
+                                                        <a href="#">과거 그리고 미래
+                                                            <i class="fa-solid fa-chevron-right"></i></a>
+                                                        <ul class="mini-menu">
+                                                            <li><a href="#">연혁</a></li>
+                                                            <li><a href="#">경영철학</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="down">
+                                                        <a href="#">브랜드 소개
+                                                            <i class="fa-solid fa-chevron-right"></i>
+                                                        </a>
+                                                        <ul class="mini-menu">
+                                                            <li><a href="#">컨셉과 슬로건</a></li>
+                                                            <li><a href="#">캐릭터</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="store">
+                                    <a href="#" class="header-btn"> 온라인 스토어</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <!-- main -->
+    <!-- banner, time-weather, one all, discount, play, tips, collect -->
+    <main>
+        <!-- banner -->
+        <div class="swiper banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/banner/banner1.jpg" alt="1"></div>
+                <div class="swiper-slide"><img src="img/banner/banner2.jpg" alt="2"></div>
+                <div class="swiper-slide"><img src="img/banner/banner3.jpg" alt="3"></div>
+                <div class="swiper-slide"><img src="img/banner/banner4.jpg" alt="4"></div>
+                <div class="swiper-slide"><img src="img/banner/banner5.jpg" alt="5"></div>
+                <div class="swiper-slide"><img src="img/banner/banner6.jpg" alt="6"></div>
+                <div class="swiper-slide"><img src="img/banner/banner7.jpg" alt="7"></div>
+                <div class="swiper-slide"><img src="img/banner/banner8.jpg" alt="8"></div>
+                <div class="swiper-slide"><img src="img/banner/banner9.jpg" alt="9"></div>
+                <div class="swiper-slide"><img src="img/banner//banner10.png" alt="10"></div>
+                <div class="swiper-slide"><img src="img/banner/banner11.jpg" alt="11"></div>
+            </div>
+            <div class="scroll">
+                <p style="color: rgba(255, 102, 0, 1); font-weight: 600;">scroll</p>
+                <span></span>
+            </div>
+            <div class="con-wrap">
+                <div class="control">
+                    <div class="banner-prev"></div>
+                    <div class="banner-next"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="autoplay-icon"></div>
+                </div>
+            </div>
+        </div>
+        <div class="time-weather">
+            <div class="tw-wrap clear">
+                <div class="time left">
+                    <p>TIME</p>
+                    <p>오늘의 운영시간</p>
+                    <p style="color: #f60;">10:00&nbsp;-&nbsp;19:00</p>
+                </div>
+                <div class="weather left">
+                    <p>weather</p>
+                    <p>흐림</p>
+                    <!-- span 앞에 파랑색 뒤에 빨간색 -->
+                    <p>
+                        <span style="color: #71c1eb;">22º</span> / <span style="color: #eb7171;">24º</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="one-all">
+            <div class="oneall-wrap">
+                <!-- 배경 이미지 ~~~ -->
+                <span class="swing"><img src="img/one-all/icon_choK.png" alt=""></span>
+                <h1>지금 이 순간! <span style="color: #f60;">민속촌 한눈에 보기</span></h1>
+                <p>민속촌 정보를 한눈에 확인해보세요</p>
+                <div class="oneall-box">
+                    <div class="oneall-left">
+                        <span>
+                            <!-- 위에 빨간 네모 -->
+                        </span>
+                        <div class="left-wrap">
+                            <h2>오늘의 운영시간</h2>
+                            <p>9월 15일(금)</p>
+                            <p>10:00&nbsp;-&nbsp;21:30</p>
+                            <div class="timeline">
+                                <ul>
+                                    <li>
+                                        <div class="bullet"></div>
+                                        <div class="tl-time"> 18:00</div>
+                                        <p>얼씨구 절씨구야</p>
+                                    </li>
+                                    <li>
+                                        <div class="tl-time"> 20:00</div>
+                                        <p>연분</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="onebtn">
+                                <a href="#">오늘의 공연 보기</a>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/one-all//one-all-mid.jpg" alt="한눈에 보기 사진">
+                    <div class="oneall-right">
+                        <span>
+                            <!-- 위에 네모 -->
+                        </span>
+                        <div class="right-wrap">
+                            <h2>민속촌 소식</h2>
+                            <ul>
+                                <li>
+                                    <img src="img//one-all/notice.svg" alt="확성기">
+                                    <p>셔틀버스 운영 종료 안내</p>
+                                </li>
+                                <li>
+                                    <img src="img/one-all/notice.svg" alt="확성기">
+                                    <p>한국민속촌 내 이미지/영상 촿영안내</p>
+                                </li>
+                                <li>전통혼례(실혼) 안내</li>
+                                <li>애완동물 출입제한 안내</li>
+                            </ul>
+                        </div>
+                        <div class="onebtn">
+                            <a href="#">민속촌 소식 보기</a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="discount">
+            <div class="discount-wrap">
+                <h1>나만의 알찬 <span style="color: #f60;">할인 정보!</span></h1>
+                <p>나만의 할인해택을 확인해보세요</p>
+                <div class="dis-img">
+                    <div class="dis">
+                        <div class="img">
+                            <img src="./img/discount/discount1.jpg" alt="야간개장">
+                        </div>
+                        <div class="distext">
+                            <p>After4 할인 프로모션</p>
+                            <p>17,000원</p>
+                        </div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="dis">
+                        <div class="img">
+                            <img src="./img/discount//discount2.jpg" alt="신한카드">
+                        </div>
+                        <div class="distext">
+                            <p>신한카드 할인 프로모션</p>
+                            <p>42,000원</p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="dis">
+                        <div class="img">
+                            <img src="./img/discount//discount3.jpg" alt="생일자">
+                        </div>
+                        <div class="distext">
+                            <p>9월 생일자 우대 할인 프로모션</p>
+                            <p>20,000원</p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="dis">
+                        <div class="img">
+                            <img src="./img/discount/discount4.jpg" alt="경기도민 할인">
+                        </div>
+                        <div class="distext">
+                            <p>경기도민 할인 프로모션</p>
+                            <p>21,000원</p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="dis">
+                        <div class="img">
+                            <img src="./img/discount/discount5.jpg" alt="온가족 할인">
+                        </div>
+                        <div class="distext">
+                            <p>온가족 할인 프로모션</p>
+                            <p>21,000원 </p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="dis">
+                        <div class="img">
+                            <img src="./img/discount/discount6.jpg" alt="열린관광지">
+                        </div>
+                        <div class="distext">
+                            <p>열린 관광지 할인 프로모션</p>
+                            <p>17,000원</p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="button clear">
+                    <div class="btn-wrap">
+                        <div class="btn left">
+                            <a href="#">카드할인 보기</a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div class="btn left">
+                            <a href="#">이달의 할인 보기</a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="play">
+            <div class="play-wrap">
+                <h1>민속촌 <span style="color: #f60;">핫! 어트랙션</span></h1>
+                <p>현재 운영중인 어트랙션을 확이해보세요</p>
+                <!-- Swiper -->
+                <div class="play-slide">
+                    <div class="swiper-slide">
+                        <img src="img/play/play1.jpg" alt="귀신전">
+                        <h3>귀신전</h3>
+                        <p>#정상운영중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play2.jpg" alt="전설의고향">
+                        <h3>전설의 고향</h3>
+                        <p class="orange">#운휴중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play3.jpg" alt="범퍼카">
+                        <h3>범퍼카</h3>
+                        <p>#정상운영중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play4.jpg" alt="매직 티컵">
+                        <h3>매직 티컵</h3>
+                        <p>#정상운영중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play5.jpg" alt="바이킹">
+                        <h3>바이킹</h3>
+                        <p>#정상운영중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play6.jpg" alt="패밀리코스터">
+                        <h3>패밀리코스터</h3>
+                        <p>#정상운영중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play7.jpg" alt="미니 바이킹">
+                        <h3>미니 바이킹</h3>
+                        <p>#정상운영중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play8.jpg" alt="순환열차">
+                        <h3>순환열차</h3>
+                        <p>#정상운영중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play9.jpg" alt="회전목마">
+                        <h3>회전목마</h3>
+                        <p>#정상운영중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play10.jpg" alt="보트라이드">
+                        <h3>보트라이드</h3>
+                        <p class="orange">#운휴중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play11.jpg" alt="드롭앤트위스트">
+                        <h3>드롭앤트위스트</h3>
+                        <p>#정상운영중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play12.jpg" alt="드롭앤트위스트 미니">
+                        <h3>드롭앤트위스트 미니</h3>
+                        <p>#정상운영중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play13.jpg" alt="바운스스핀">
+                        <h3>바운스스핀</h3>
+                        <p>#정상운영중</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/play/play14.jpg" alt="크레이지 스윙">
+                        <h3>크레이지 스윙</h3>
+                        <p class="orange">#운휴중</p>
+                    </div>
+                </div>
+                <div class="playbtn">
+                    <div class="btnwrap">`  
+                        <a href="#">운휴 정보 알펴보기</a>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tips">
+            <h1>관람 <span style="color: #f60;">꿀팁!</span></h1>
+            <p>민속촌 이용꿀팁을 확인해보세요.</p>
+            <div class="tip clear">
+                <div class="tip-left left">
+                    <div class="tip1">
+                        <div class="img">
+                            <img src="./img/tips/tips1.jpg" alt="">
+                        </div>
+                        <p>관련꿀팁!</p>
+                        <p>조선판 히어로 판타지 축제 개막⭐🍂</p>
+                    </div>
+                </div>
+                <div class="tip-right left">
+                    <div class="tip2">
+                        <div class="img">
+                            <img src="img/tips/tips2.jpg" alt="차사">
+                        </div>
+                        <p>관련꿀팁!</p>
+                        <p>가을이 오고 있사옵니다🍁</p>
+                    </div>
+                    <div class="tip2">
+                        <div class="img"><img src="img/tips//tips3.jpg" alt="조선살인주사">
+                        </div>
+                        <p>관련꿀팁!</p>
+                        <p>조선시대 암행어사가 되어보자🔍</p>
+                    </div>
+                    <div class="tip2">
+                        <div class="img">
+                            <img src="img/tips//tips4.jpg" alt="야간개장 ">
+                        </div>
+                        <p>관련꿀팁!</p>
+                        <p>한국민속촌 야간개장 V-LOG🌙</p>
+                    </div>
+                    <div class="tip2">
+                        <div class="img">
+                            <img src="img/tips//tips5.jpg" alt="살귀옥">
+                        </div>
+                        <p>관련꿀팁!</p>
+                        <p>도망칠수록 갇히는 극한의 공포, 살귀옥💀</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="collect">
+            <div class="collect-wrap">
+                <h1>민속촌 <span style="color: #f60;">모아보기</span> </h1>
+                <p>민속촌을 좀 더 알차게 즐겨보세요!</p>
+                <div class="col">
+                    <div class="collec">
+                        <div class="bounce">
+                            <img src="img/collect/brand_icon01.svg" alt="이용권 안내" style="width: 139px;">
+                            <p>이용권 안내</p>
+                        </div>
+                        <p>민속촌 이용요금을<br>확인해보세요!</p>
+                    </div>
+                    <div class="collec">
+                        <div class="bounce">
+                            <img src="img/collect/brand_icon02.svg" alt="먹거리" style="width: 147px;">
+                            <p>먹거리</p>
+                        </div>
+                        <p>출출할 때 이곳에서! <br>먹기리를 확인해보세요. </p>
+                    </div>
+                    <div class="collec">
+                        <div class="bounce">
+                            <img src="img/collect//brand_icon03.svg" alt="살거리" style="width: 162px;">
+                            <p>살거리</p>
+                        </div>
+                        <p>기념품으로<br>민속촌을 추억하세요!</p>
+                    </div>
+                    <div class="collec">
+                        <div class="bounce">
+                            <img src="img/collect/brand_icon04.svg" alt="자주 묻는 질문" style="width: 97px;">
+                            <p>자주 묻는 질문</p>
+                        </div>
+                        <p>자주 묻는 질문을 통해 <br>궁금증을 해결해보세요!</p>
+                    </div>
+                    <div class="collec">
+                        <div class="bounce">
+                            <img src="img/collect/brand_icon05.svg" alt="편의시설 안내" style="width: 67px;">
+                            <p>편의시설 안내</p>
+                        </div>
+                        <p>유아 휴게실,유모차/휠체어 대여 등 <br> 편의시설을 확인해보세요!</p>
+                    </div>
+                    <div class="collec">
+                        <div class="bounce">
+                            <img src="img/collect/brand_icon06.svg" alt="교통정보 안내" style="width: 156px;">
+                            <p>교통정보 안내</p>
+                        </div>
+                        <p>우리집에서 민속촌까지 어떻게?<br>대중교통, 자가용, 셔틀버스 안내</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="inner clear">
+            <div class="foot-logo left">
+                <img src="img/footer/footer_logo.svg" alt="footer logo">
+            </div>
+            <div class="foot-right left">
+                <div class="foot-top">
+                    <p class="rule">한국민속촌 전통식품 &#124; 이용약관 &#124; <span style="color: black;">개인정보처리방침</span> &#124;
+                        이메일무단수집거부</p>
+                    <div class="family-site">
+                        <ul>
+                            <li>
+                                <a href="#">패밀리 사이트</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">남부골프연습장</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="add-icon clear">
+                        <p class="add left">경기도 용인시 기흥구 민속촌로 90 한국민속촌<br>TEL 031. 288. 0000 FAX 031. 286. 4051 </p>
+                        <div class="family-icon right">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#">blog</a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <p class="copy">Copyright &#169; 2021 KoreanFolkVilage.All Right Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="gotop">
+        <span><i class="fa-solid fa-arrow-up"></i></span>
+    </a>
+    <!-- 베너 스와이퍼 스크립트 -->
+    <script>
+        var swiper = new Swiper(".banner", {
+            autoplay: {
+                delay: 3500,
+            },
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".banner-next",
+                prevEl: ".banner-prev",
+            },
+        });
+    </script>
+    <!-- play 스와이프 스크립트 -->
+    <script>
+        $(document).ready(function () {
+            $(".play-slide").bxSlider({
+                mode: 'horizontal',
+                pager: false,
+                auto: true,
+                controls: true,
+                slideWidth: 600,
+                minSlides: 3,
+                maxSlides: 14,
+                moveSlides: 1,
+                slideMargin: 40,
+                infiniteLoop: true,
+                touchEnabled: (navigator.maxTouchPoints > 0),
+            });
+        });
+    </script>
+
+</body>
+
+</html>
